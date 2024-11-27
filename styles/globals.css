@@ -5,3 +5,9 @@
 .scrollbar::-webkit-scrollbar{
     display: none;
 }
+
+@layer components {
+    .btn{
+        @apply hover:scale-125 transition-transform ease-out duration-200 cursor-pointer
+    }
+}
