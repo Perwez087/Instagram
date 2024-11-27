@@ -3,7 +3,7 @@ import Stories from "./Stories";
 
 const Feed = () => {
   return (
-    <main>
+    <main className="max-w-2xl mx-auto">
       <section>
         {/* stories */}
         <Stories />
