@@ -1,22 +1,23 @@
-import Stories from "./Stories"
+import Posts from "./Posts";
+import Stories from "./Stories";
 
 const Feed = () => {
   return (
     <main>
-        <section>
-            {/* stories */}
-              <Stories/>
-            {/* posts */}
-        </section>
+      <section>
+        {/* stories */}
+        <Stories />
+        {/* posts */}
+        <Posts />
+      </section>
 
-        <section>
-            {/* Mini Profile */}
+      <section>
+        {/* Mini Profile */}
 
-
-            {/* Suggestion */}
-        </section>
+        {/* Suggestion */}
+      </section>
     </main>
-  )
-}
+  );
+};
 
-export default Feed
+export default Feed;
